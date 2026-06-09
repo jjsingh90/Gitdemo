@@ -13,6 +13,7 @@ public class BasePage {
 
 
     public BasePage(WebDriver driver) {
+        System.out.println("This is Base page constructor");
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
