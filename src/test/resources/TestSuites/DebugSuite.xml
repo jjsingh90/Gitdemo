@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Debug Suite" verbose="1">
+  <test name="Debug Tests">
+
+    <classes>
+        <class name="com.practicetestautomation.tests.exceptions.ExceptionTests">
+            <methods>
+                <include name="ElementNotInteractableExceptionTest"/>
+            </methods>
+        </class>
+    </classes>
+  </test>
+
+</suite>
