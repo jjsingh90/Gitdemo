@@ -32,10 +32,12 @@ public class LoginPage extends BasePage {
     }
 
     public void clickSubmitButton(){
+        System.out.println("Click on submit button");
         driver.findElement(submitButtonLocator).click();
     }
 
     public SuccessfulLoginPage executeLogin(String username, String password){
+        System.out.println("Executing successful login");
         enterUsername(username);
         enterPassword(password);
         clickSubmitButton();
