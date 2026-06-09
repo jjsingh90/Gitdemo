@@ -19,6 +19,7 @@ public class BasePage {
     }
 
     protected void visit(String url){
+        System.out.println("Opening the url page");
         driver.get(url);
     }
 

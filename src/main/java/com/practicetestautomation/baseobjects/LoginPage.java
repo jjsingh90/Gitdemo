@@ -12,7 +12,9 @@ public class LoginPage extends BasePage {
     private By errorMessageLocator=By.id("error");
 
     public LoginPage(WebDriver driver) {
+
         super(driver);
+        System.out.println("called the super constructor");
     }
 
     public void visit(){
